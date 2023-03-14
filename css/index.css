@@ -44,7 +44,7 @@ h2 {
 }
 
 .card-text {
-    height: 192px;
+    height: 243px;
 }
 
 footer {
@@ -138,18 +138,6 @@ nav {
 
 .dropdown-item:hover {
     background-color: #1F445A;
-}
-
-@media (max-width: 768px) {
-    .btn-sign {
-        margin-top: 10px;
-    }
-    h4 {
-        margin-bottom: 10px;
-    }
-    .card-body .card-text {
-        height: 221px;
-    }
 }
 
 header {
