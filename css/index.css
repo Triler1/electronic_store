@@ -44,7 +44,7 @@ h2 {
 }
 
 .card-text {
-    height: 243px;
+    height: 192px;
 }
 
 footer {
@@ -73,10 +73,6 @@ footer {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
-
 .icon:hover {
     opacity: 0.5;
 }
@@ -88,7 +84,7 @@ a {
 }
 
 .card-body .card-title {
-    height: 55px;
+    height: 48px;
 }
 
 .card {
@@ -100,19 +96,15 @@ a {
     transform: scale(1.02);
 }
 
-nav {
-    background: #023048;
-}
-
 .dropdown-menu {
     background-color: #023048;
 }
 
-.navbar-brand img {
+.d-flex img {
     transition: all 0.5s;
 }
 
-.navbar-brand img:hover {
+.d-flex img:hover {
     opacity: 0.5;
 }
 
@@ -142,9 +134,8 @@ nav {
 
 header {
     box-shadow: 0 0 3px black;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+    background: #023048;
+    color: white;
 }
 
 form h5 {
@@ -153,4 +144,21 @@ form h5 {
 
 form p {
     text-align: center;
+}
+
+.p {
+    padding: 13px;
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.form-control-dark {
+    border-color: gray;
+}
+
+.form-control-dark:focus {
+    border-color: white;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, .25);
 }

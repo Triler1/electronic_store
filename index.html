@@ -13,63 +13,61 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar-dark navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/icon.svg" alt="" style="height: 45px;">
+  <header class="p">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a class="d-flex align-items-center mb-2 mb-lg-0" href="index.html">
+          <img class="me-2" src="assets/icon.svg" style="height: 45px;">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sell.html">Акции</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Каталог
-              </a>
-              <ul class="dropdown-menu" style="border: 1px solid white;">
-                <li><a class="dropdown-item" href="tv.html" style="color: white;">Телевизоры</a></li>
-                <li><a class="dropdown-item" href="monitor.html" style="color: white;">Мониторы</a></li>
-                <li><a class="dropdown-item" href="monoblock.html" style="color: white;">Моноблоки</a></li>
-                <li>
-                  <hr class="dropdown-divider" style="background-color: white;">
-                </li>
-                <li><a class="dropdown-item" href="smart.html" style="color: white;">Смартфоны</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search" style="margin-right: 10px;">
-            <a href="profile.html" class="btn" style="background-color: #1F445A; color: white;">Профиль</a>
+        <ul class="nav mb-2 col-12 col-lg-auto me-lg-auto justify-content-center mb-md-0">
+          <li>
+            <a class="nav-link px-2 text-secondary" href="index.html">Главная</a>
+          </li>
+          <li>
+            <a class="nav-link px-2 text-white" href="sell.html">Акции</a>
+          </li>
+          <li>
+            <a class="nav-link px-2 text-white dropdown-toggle" role="button" data-bs-toggle="dropdown">
+              Каталог
+            </a>
+            <ul class="dropdown-menu text-small" style="border: solid 1px white;">
+              <li><a class="dropdown-item" href="tv.html" style="color: white;">Телевизоры</a></li>
+              <li><a class="dropdown-item" href="monitor.html" style="color: white;">Мониторы</a></li>
+              <li><a class="dropdown-item" href="monoblock.html" style="color: white;">Моноблоки</a></li>
+              <li>
+                <hr class="dropdown-divider" style="background: white;">
+              </li>
+              <li><a class="dropdown-item" href="smart.html" style="color: white;">Смартфоны</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input class="form-control form-control-dark" type="search" placeholder="Поиск">
+        </form>
+        <a href="profile.html" class="btn me-2"
+          style="background-color: #1F445A; color: white; margin-right: 10px;">Профиль</a>
+        <div class="dropdown me-2">
+          <button type="button" class="btn-sign btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+            data-bs-auto-close="outside" style="background-color: #1F445A; color: white;">
+            Регистрация
+          </button>
+          <form class="dropdown-menu p-4">
+            <div class="mb-3">
+              <label for="exampleDropdownFormEmail2" class="form-label" style="color: white;">Почта</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleDropdownFormPassword2" class="form-label" style="color: white;">Пароль</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Пароль">
+            </div>
+            <button type="submit" class="btn btn-submit">Войти</button>
           </form>
-          <div class="dropdown">
-            <button type="button" class="btn-sign btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
-              data-bs-auto-close="outside" style="background-color: #1F445A; color: white;">
-              Регистрация
-            </button>
-            <form class="dropdown-menu p-4">
-              <div class="mb-3">
-                <label for="exampleDropdownFormEmail2" class="form-label" style="color: white;">Почта</label>
-                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleDropdownFormPassword2" class="form-label" style="color: white;">Пароль</label>
-                <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Пароль">
-              </div>
-              <button type="submit" class="btn btn-submit">Войти</button>
-            </form>
-          </div>
         </div>
+        <button type="button" class="btn" style="background: #1F445A;">
+          <img src="assets/basket.svg" style="height: 20px;">
+        </button>
       </div>
-    </nav>
+    </div>
   </header>
   <main>
     <section>
